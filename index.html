@@ -192,11 +192,103 @@
             <div class="ptype-stanford-wysiwyg paragraph paragraph--type--stanford-wysiwyg paragraph--view-mode--default">
           
 
+<!-- Content BEGIN -->
 
 
+            <style>
+                p {text-align: justify}
+                h2, h4 {margin: 30px 0 10px 0}
+                .gallery {float: left;
+                    overflow: hidden;
+                    width: 460px;
+                    max-width: 100%;
+                    margin: 10px;}
+                .gallery video {width:100%}
+                .gallery label {margin-top:0}
+            </style>
 
-            <div class="su-wysiwyg-text paragraph stanford-wysiwyg text-long label-hidden"><h2>Prospective Ph.D. Students</h2><p>Please apply to Stanford's <a href="https://www.cs.stanford.edu/admissions/phd-admissions">Computer Science Ph.D. program</a>. We kindly request you to refrain from contacting us directly until after you are admitted.</p><h2>Stanford Undergraduate, Co-term, Masters</h2><ol><li>Read through the <a href="https://docs.google.com/document/d/1Bxid8cp9XpIjvvZVh3NRcpRL4Fjdz4-Zr3_DQh5eudg/edit">list of project openings</a> at TML.</li><li>Complete the <a href="https://forms.gle/bPhyfFLQbqbKAQJJ6">research application form</a>. Stanford email required.</li></ol><h2>Postdocs</h2><p>Please reach out directly to Professor Karen Liu.</p></div>
-      
+            <p>Welcome to The Movement Lab website! If you are a current Stanford student and interested in working on cutting-edge research projects on humanoids, digital agents and physical intelligence in general, you might be someone we are looking for! This is an unpaid position for gaining research experiences, domain knowledge, and potential publications. The minimal commitment is 8 hours per week for at least one quarter.</p>
+            <p>The goal of our lab is to create coordinated, functional, and efficient whole-body movements for digital agents and for real robots to interact with the world. We focus on holistic motor behaviors that involve fusing multiple modalities of perception to produce intelligent and natural movements. Our lab is unique in that we study “motion intelligence” in the context of complex ecological environments, involving both high-level decision making and low-level physical execution. Our current research directions include:</p>
+            <ol>
+                <li>Developing intelligent and agile humanoids with bipedal legs and dexterous hands for whole-body navigation, locomotion and manipulation.</li>
+                <li>Creating intelligent and autonomous human characters.</li>
+                <li>Building intelligent and safe exoskeletons.</li>
+            </ol>
+            
+            <h2>Highlights of recent work:</h2>
+            <div>
+            <div class="gallery">
+                <video id="beyond-mimic" controls="">
+                <source src="https://beyondmimic.github.io/static/videos/teaser.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                <label><a href="https://beyondmimic.github.io/" class="ext su-link--external" data-extlink="">BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion</a></label>
+            </div>
+            <div class="gallery">
+                <video id="omni-retarget" controls="">
+                <source src="https://omniretarget.github.io/static/website_videos/flagship.mp4#t=1" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                <label><a href="https://omniretarget.github.io/" class="ext su-link--external" data-extlink="">OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction</a></label>
+            </div>
+            <div class="gallery">
+                <video id="learning-to-ball" controls="">
+                <source src="https://pei-xu.github.io/projects/Basketball/teaser.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                <label><a href="https://pei-xu.github.io/Basketball" class="ext su-link--external" data-extlink="">Learning to Ball: Composing Policies for Long-Horizon Basketball Moves</a></label>
+            </div>
+            <div class="gallery">
+                <video id="hihi" controls="">
+                <source src="https://hoifhli.github.io//static/videos/compressed/workspace_2x_compressed.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                <label><a href="https://hoifhli.github.io/" class="ext su-link--external" data-extlink="">Human-Object Interaction from Human-Level Instructions</a></label>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+
+            <h2>Join us</h2>
+            <p>In practice research in our lab typically entails at least some of the following:</p>
+            <ul>
+                <li>Building generative models for motion synthesis or control</li>
+                <li>Experimenting with humanoids, robot arms, exoskeletons and dexterous hands</li>
+                <li>Training virtual agents using RL and transfer to real robots</li>
+                <li>Collecting data with different motion capture systems</li>
+                <li>Pre-training or fine-tuning VLMs for policy development</li>
+                <li>Developing and using multibody simulators</li>
+                <li>Designing and building 3D-printable humanoids</li>
+                <li>Solving both convex and non-convex optimization problems</li>
+                <li>Analyzing, simulating and understanding human interaction with assistive devices and robots.</li>
+            </ul>
+
+            <p>If you are interested in working at TML, please fill out the <a href="https://forms.gle/bPhyfFLQbqbKAQJJ6" class="ext su-link--external" data-extlink="">research application form</a> (Stanford email required).<br />Your response will be reviewed by current TML members.<br />If you have not heard back from us in two weeks, please contact <a href="https://tml.stanford.edu/people/albert-wu" class="ext su-link--external" data-extlink="">Albert Wu</a>.</p>
+            
+
+            <h2>Current Projects under Recruitment</h2>
+            <p>Here are the projects actively looking for students to join:</p>
+
+            <h4>GUI for tuning reinforcement learning reward terms</h4>
+            Posted on <em>08/19/2025</em><br />
+            Contact: <a href="https://tml.stanford.edu/people/joao-pedro-araujo" class="ext su-link--external" data-extlink="">Joao Pedro Araujo</a><br />
+            <p>Reinforcement learning is currently very popular for both physics-based character animation and robotics. However, tuning the reward function is a tedious and complex task. The goal of this project is to develop a tool to help researchers train RL models by inspecting the behaviors induced by their reward functions. Please apply for more details.</p>
+
+            <h4>Contact Inference from Everyday Human-Object Interactions (HOI) Videos</h4>
+            Posted in <em>Jan, 2025</em><br />
+            Contact: <a href="https://tml.stanford.edu/people/yufei-ye" class="ext su-link--external" data-extlink="">Yufei Ye</a>
+            <p>Imagine a video of a person making tea. We humans can not only understand the person's gestures (pose) in the video but also infer which parts of their hands make contact and estimate the rough force directions at these contact points.<br />
+            While previous computer vision literature has made significant progress in extracting human poses and object geometry from in-the-wild videos, modalities beyond these kinematics, such as contact or force, remain less explored. In this work, we aim to infer the contact regions of human hands from videos. This is important for various downstream applications, such as more robust imitation learning for manipulations, higher-quality interaction animations, improved motion retargeting, and better content creation interfaces, etc. The primary challenge in achieving this goal is the lack of annotated real-world data. We propose leveraging existing simulators in combination with a limited amount of real-world data to address this challenge.<br />
+            The expected contributions of this work include: 0) least importantly, a potential publication in top-tier vision/robotics venue 1) a foundational dataset for studying human contact, 2) a robust model capable of performing reasonably well on everyday videos, 3) potential follow-up collaborations to apply this model to dexterous manipulation.</p>
+
+            <h4>High performance reactive motion policy for safe manipulation</h4>
+            Posted on <em>10/05/2025</em><br />
+            Contact: <a href="https://tml.stanford.edu/people/albert-wu" class="ext su-link--external" data-extlink="">Albert Wu</a>
+            <p>This project aims to optimize a general-purpose reactive motion generation library grounded in differential geometric control. The first phase focuses on enhancing computational efficiency through automatic differentiation, high-performance simulation, and other state-of-the-art software optimization techniques. The second phase involves deploying the optimized library on constraint-rich, real-world manipulation tasks using TML's hardware systems.</p>
+
+            <p style="margin-top:50px">If none of these projects interest you, but you would still like to work with the Movement Lab, please write a short cover letter explaining your motivations and/or what you would like to do (some examples: pursue your own research project, join existing research projects in either a researcher or a software engineering role, etc.) and submit it as your answer to the question “Specify any project you are interested in working on.” on the <a href="https://forms.gle/bPhyfFLQbqbKAQJJ6" class="ext su-link--external" data-extlink="">research application form</a>. Then select at least one Movement Lab member on the last question.</p>
+
+
+<!-- Content END -->
       </div>
 
         </div>
